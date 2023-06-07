@@ -1,0 +1,49 @@
+/*
+Título: Juego Naves contra Ovnis (Escenario).
+Nivel Educativo: Ciclo Formativo de Grado Superior
+Curso: DAM, DAW o ASIR
+Conocimientos del alumnado I: Tipos de Datos, Constantes y Variables 
+Conocimientos del alumnado II: Operaciones Aritméticas, Lógicas y Relacionales
+Conocomientos del alumnado III: Instrucciones de Control Condicional
+Conocomientos del alumnado IV: Instrucciones de Control Iterativa
+Conocomientos del alumnado V: Estructuras de datos (Vectores)
+Conocomientos del alumnado VI: Funciones y Procedimientos
+Conocomientos del alumnado VII: Estructuras de datos (Objeto básico)
+Conocomientos del alumnado VIII: Estrcutrua lógica de un videojuego web
+Conocomientos del alumnado IX: Animaciones 2D básicas
+Conocimientos del alumnado X: Programación orientada a objetos (esquema de clases) 
+Fecha: 07 / 06 / 2023
+Autor: Xavi Garcia (ElCiberProfe)
+Web: https://www.elciberprofe.com
+Lenguaje: JavaScript
+*/
+
+/* Estilos CSS de Naves contra Ovnis */
+/* Estilos Particulas de Nieve */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+#pantalla {
+  width: 100vw;
+  height: 100vh;
+  background-color: #222;
+  overflow: hidden;
+}
+
+.estrella {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+
+.nave,
+.enemigo {
+  position: absolute;
+}
